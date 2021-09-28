@@ -32,7 +32,7 @@ const runInternal = async <TReturn, TNetworkResponse>(
   global.chai = chai;
 
   const mocha: Mocha = new Mocha({
-    timeout: 5000,
+    timeout: 50000,
     globals: ['insomnia', 'chai'],
     bail,
     reporter,
